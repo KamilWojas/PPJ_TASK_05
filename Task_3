@@ -1,0 +1,22 @@
+public void zad3() {
+
+        int a;
+        int b;
+        System.out.println("pętla while");
+        a = 1;
+        b = 1;
+        while (a < 1) {
+            System.out.println("wykonanie instrukcji " + b + " wewnątrz pętli while");
+            a++;
+            b++;
+        }
+
+        System.out.println("pętla do-while");
+        a = 1;
+        b = 1;
+        do {
+            System.out.println("wykonanie instrukcji " + b + " wewnątrz pętli do-while");
+            a++;
+            b++;
+        } while (a < 1);
+    }
